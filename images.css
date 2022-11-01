@@ -1,0 +1,127 @@
+/*body {
+  padding: 50px;
+  font-family: "Comic sans MS" !important;
+  background-image: url("https://www.sheridanmentoring.com/wp-content/uploads/2014/12/Dollarphotoclub_69978584.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+*/
+.container {
+  display: flex;
+  margin-right: 50px !important;
+  margin-left: 50px !important;
+  max-width: 85vw !important;
+}
+
+#content td, #content th {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+  word-break: break-all;
+}
+
+#content tr {
+  background-color: #fcd07f;
+}
+
+#content tr:nth-child(even) {
+  background-color: #fcdea7;
+}
+
+#content th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #e6ae47;
+  color: white;
+}
+
+#content button {
+  border: 0px;
+  background-color: #e6ae47;
+}
+
+.content {
+  width: 100%;
+  /* max-width: 100vh; */
+  padding: 10px;
+}
+
+.nav table tr td button {
+  width: 200px;
+  height: 60px;
+}
+
+.nav table {
+  width: 100%;
+  height: 500px;
+}
+
+#images_gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#images_gallery>#img_div>img {
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+#img_div {
+  margin: 10px;
+  width: 280px;
+  margin-bottom: 20px;
+  box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+#img_btns {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#img_btns>button {
+  margin: 3px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+  color:  rgb(79, 89, 98);
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 3px;
+}
+
+#images_gallery>img:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.email_btn, .delete_download_btns {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.About_phone_content_container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 2rem;
+}
+
+.phone_content {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+th .row {
+  text-align: center;
+}
+
+active {
+  color: #212529;
+  background-color: #e0a800;
+  border-color: #d39e00;
+}

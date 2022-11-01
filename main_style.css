@@ -1,0 +1,83 @@
+*{
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+body {
+  padding: 50px;
+  padding-right: 200px;
+  padding-left: 200px;
+  /*font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;*/
+  /*background-image: url("https://www.sheridanmentoring.com/wp-content/uploads/2014/12/Dollarphotoclub_69978584.jpg");*/
+  /*background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+*/
+ background-color: white;}
+
+#table{
+border-collapse: collapse;
+border: solid 1px rgb(197 197 197);
+}
+
+.card_{
+  padding: 20px;
+margin-top: 20px;
+  box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+}
+
+#table td{
+  border-right: solid 1px rgb(197 197 197); 
+  border-left: solid 1px rgb(197 197 197);
+}
+
+ #table thead th{
+  background-color:rgb(249, 250, 251);
+  border-bottom: 0;
+  text-align: center;
+ }
+
+.but_link{
+  padding: 5px 15px;
+  background-color: rgb(33, 133, 208);
+  color: white;
+  font-weight: 500;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.but_link:hover{
+  color: white;
+  text-decoration: none;
+}
+
+#control>button {
+  margin: 15px;
+  /*background-color: #009879;*/
+  border: 0px;
+  color: black;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 3px;
+}
+
+#control>button:hover{
+  background-color: rgb(240, 239, 239);
+}
+
+#save_edit_btns {
+  text-align: right;
+}
+
+#save_edit_btns>button {
+  margin-right: 1px !important;
+  margin-left: 1px !important;
+  background-color: #e6ae47;
+  border: 0px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+}
+
